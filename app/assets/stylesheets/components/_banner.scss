@@ -1,0 +1,37 @@
+.left-banner {
+  padding-top: 60px;
+}
+
+.banner {
+  h6 {
+    color: #FDC642;
+  }
+}
+
+.top {
+  position: relative;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.icon-link i {
+  font-size: 35px;
+}
+
+.yellow-btn {
+
+  background-color: #FDC642 !important;
+}
+
+.floating-image {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  width: 400px;
+  z-index: 10;
+  margin: 0;
+}
