@@ -1,17 +1,3 @@
-.left-banner {
-  padding-top: 60px;
-}
-
-.banner {
-  h6 {
-    color: #FDC642;
-  }
-}
-
-.top {
-  position: relative;
-}
-
 .icon-link {
   display: flex;
   align-items: center;
@@ -20,11 +6,20 @@
 
 .icon-link i {
   font-size: 35px;
+  &:hover {
+    transform: scale(1.1);
+    color: #fdb715 !important;
+  }
 }
 
 .yellow-btn {
-
   background-color: #FDC642 !important;
+  &:hover {
+    transform: scale(1.1);
+    color: black !important;
+    background-color: #fdb715 !important;;
+
+  }
 }
 
 .floating-image {

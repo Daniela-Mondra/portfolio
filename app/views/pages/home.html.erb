@@ -1,9 +1,21 @@
-<div class="top pb-5" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= asset_path 'code.jpg' %>);
+<div class="bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= asset_path 'code.jpg' %>);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;">
-  <%= render "shared/navbar" %>
-  <%= render "shared/banner" %>
 
-  <img src="<%= asset_path 'profile.png' %>" class="floating-image">
+  <%= render "shared/navbar" %>
+
+  <div class="container mb-0 pb-0">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center">
+        <%= render "shared/banner" %>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-0 pb-0 d-flex justify-content-center align-items-end">
+        <img src="<%= asset_path 'profile.png' %>" alt="Profile picture" class="img-fluid">
+      </div>
+    </div>
+  </div>
 </div>
+
+<%= render "shared/about" %>
+<%= render "shared/technical" %>
